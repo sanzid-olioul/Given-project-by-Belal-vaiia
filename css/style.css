@@ -101,3 +101,14 @@
     border-bottom: dotted;
     border-color: #ffffff;
 }
+
+.template .mainbody button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    margin-left: 45%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
