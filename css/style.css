@@ -101,8 +101,9 @@ h2 {
     padding: 0;
     font-size: 1.2rem;
 }
-.template .mainbody .contact-information .header i {
+.template .mainbody .contact-information .header img {
     padding-top: 0.3rem;
+    width: 1.4rem;
 }
 .template .mainbody .contact-information .information {
     margin-left: 2.5rem;
