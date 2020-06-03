@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+input:focus {
+    border: solid;
+    border-color: dodgerblue;
+    box-shadow: 0 0 0 dodgerBlue;
+}
 
 .template {
     background: none;
@@ -25,14 +30,49 @@
 
 .template .mainbody .input-area form input {
     height: 2.5rem;
-    width: 25rem;
+    width: 19.8rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
     font-size: 1.4rem;
     background: #c4c4c4;
     border-radius: 0.8rem;
     border-style: none;
 }
 
-.template .mainbody .update-discription h2 {
+.template .mainbody .input-area .input-div .inp-with-logo {
+    position: relative;
+}
+.template .mainbody .input-area .input-div .inp-with-logo img.uni {
+    width: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+    padding: 8px 9px;
+}
+
+.template .mainbody .input-area .input-div .inp-with-logo img.pen {
+    width: 1.4rem;
+    position: absolute;
+    top: 0;
+    right: 0.2rem;
+    padding: 8px 9px;
+}
+.template .mainbody .input-area .input-div .inp-with-logo img.at {
+    width: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+    padding: 8px 9px;
+}
+.template .mainbody .input-area .input-div .inp-with-logo img.cal {
+    width: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+    padding: 8px 9px;
+}
+
+h2 {
     margin: 1rem 3rem 1rem 0rem;
     display: grid;
     justify-content: center;
@@ -45,6 +85,7 @@
     padding: 0.2rem;
     margin: 0 auto;
 }
+
 .template .mainbody .contact-information {
     background: #c4c4c4;
     width: 25rem;
@@ -104,6 +145,7 @@
 
 .template .mainbody button.btn {
     border: none;
+    background: dodgerblue;
     border-radius: 2rem;
     padding: 1rem 3rem;
     margin-left: 45%;
@@ -112,3 +154,4 @@
     font-size: 1.4rem;
     cursor: pointer;
 }
+/*--------Arektu Fazlami------------*/
