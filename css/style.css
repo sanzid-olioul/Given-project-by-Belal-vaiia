@@ -82,3 +82,22 @@
     margin-left: 0.5rem;
     padding: 0.5rem;
 }
+.template .mainbody .address {
+    background: #c4c4c4;
+    width: 25rem;
+    margin: auto;
+    border-radius: 0.2rem;
+}
+.template .mainbody .address .head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dotted;
+    border-color: #ffffff;
+}
+.template .mainbody .address .details .additional-details {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5rem;
+    border-bottom: dotted;
+    border-color: #ffffff;
+}
