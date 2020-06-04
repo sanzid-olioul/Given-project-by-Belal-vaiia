@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+p {
+    margin-bottom: 0.2rem;
+}
 input:focus {
     border: solid;
     border-color: dodgerblue;
@@ -109,6 +112,21 @@ h2 {
     margin-left: 2.5rem;
     margin-top: -0.5rem;
 }
+.template .mainbody .contact-information .information .phone {
+    margin-left: -1rem;
+    margin-bottom: 0.4rem;
+}
+.template .mainbody .contact-information .information .phone p {
+    font-size: 1.4rem;
+}
+.template .mainbody .contact-information .information .phone img {
+    width: 1.4rem;
+}
+
+.template .mainbody .contact-information .information .phone img.mob {
+    width: 0.8rem;
+}
+
 .template .mainbody .contact-information .information .phone-number.one {
     border-top: dotted;
     border-left: dotted;
@@ -117,6 +135,10 @@ h2 {
     margin-left: 0.5rem;
     padding: 0.5rem;
 }
+.template .mainbody .contact-information .information .phone-number img {
+    width: 1rem;
+}
+
 .template .mainbody .contact-information .information .phone-number.two {
     border-left: dotted;
     border-bottom: dotted;
@@ -136,6 +158,11 @@ h2 {
     border-bottom: dotted;
     border-color: #ffffff;
 }
+.template .mainbody .address .details img {
+    margin-top: 0.4rem;
+    width: 1rem;
+}
+
 .template .mainbody .address .details .additional-details {
     display: flex;
     justify-content: space-between;
